@@ -1,0 +1,159 @@
+/* BODY  */
+
+body {
+    background-color: rgb(65,68,75);
+}
+
+/* NAVBAR */
+
+#mainNav {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 600;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+}
+#mainNav .navbar-brand {
+    color: #F9F9F9;
+}
+#mainNav .navbar-nav {
+    margin-top: 1rem;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #F9F9F9;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #F8C4B4;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #F9F9F9;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:active {
+    color: #F8C4B4;
+}
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+}
+
+@media (min-width: 92px){
+    #mainNav {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+        font-size: 1.70em;
+        transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+        margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:active {
+        color: #F9F9F9;
+        background: #F8C4B4;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+        color: #F9F9F9;
+        background: #F8C4B4;
+    }
+}
+
+/* HEADMASTER */
+
+.headmaster {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+}
+
+.headmaster .headmaster-heading {
+    padding-top: 1em;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+}
+
+.headmaster .headmaster-subheading {
+    font-size: 1.25rem;
+}
+
+@media(min-width: 992px){
+    .headmaster {
+        padding-top: calc(6rem + 104px);
+        padding-bottom: 6rem;
+    }
+    
+    .headmaster .headmaster-heading {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+    
+    .headmaster .headmaster-subheading {
+        font-size: 1.5rem;
+    }
+}
+
+/* PHOTO PRINCIPALE  */
+
+#me {
+    height: 20em;
+    width: 13em;
+}
+
+/* A PROPOS  */
+
+#propos {
+    padding-bottom: 5em;
+}
+
+#propos .img-fluid {
+    padding-bottom: 2em;
+}
+
+/* EXPERIENCES */
+
+#exp {
+    padding-bottom: 5em;
+}
+
+#expimg {
+    padding-top: 2em;
+}
+
+#textexp1 {
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+#textexp2 {
+    padding-bottom: 1.5em;
+}
+
+/* COMPETENCES  */
+
+#comp .row {
+    padding-top: 2em;
+    justify-content: flex;
+}
+
+#textcomp {
+    text-align: start;
+}
+
+#contentcomp {
+    text-align: center;
+}
+
+#logos {
+    width: 10em;
+}
+
+/* FOOTER  */
+
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #F9F9F9;
+}
+
+#contentCont {
+    padding-top: 3em;
+}
